@@ -1,3 +1,59 @@
 .form {
-    background-color: rgb(255, 227, 148);
+    margin-top: 50px;
+    width: 98%;
+}
+
+.form-row.form-input {
+    padding: 10px 0 10px 18px;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.form-row.form-input:hover {
+    border-left: 2px solid blue;
+}
+
+.form-row > input {
+    border: none;
+    color: blue;
+}
+
+input:focus{
+    outline: none;
+}
+
+input:hover {
+    vertical-align: bottom;
+
+}
+
+.form, .form-row {
+    display: flex;
+    flex-direction: column;
+    width: 99%;
+}
+
+.form-row.flex-row-password {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.form-row.flex-row-password a {
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+}
+
+.form-row.flex-row-socials {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 0.8em;
+    text-transform: none;
+}
+
+.form-row.flex-row-socials > a {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: blue;
 }

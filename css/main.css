@@ -10,6 +10,8 @@ body * {
     margin: 0;
     padding: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.24;
+    text-transform: capitalize;
 }
 
 .bg-color {
@@ -37,32 +39,44 @@ main > div {
     float: left;
     padding: 20px;
     margin-left: calc((40% - var(--leftcol-width)) / 2);
-    background-color: rgb(210, 210, 210); 
-    background-image: url(../assets/images/2-sliced-img.jpg);
+    background-color: white; 
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .left-col > .wrapper {
-    outline: 2px solid red;
     display: flex;
     flex-direction: column;
     gap: 0px;
     width: 100%;
-    margin-top: 62px;
-    padding-left: 54px;
+    margin-top: 58px;
+    padding-left: 58px;
+    letter-spacing: 0.4px;
 }
 
 .logo {
-    background-color: rgb(96, 96, 255);
+    font-size: 1.5em;
+    font-weight: bold;
+    color: blue;
 }
 
-.headline {
-    background-color: rgb(206, 100, 255);
+h3 {font-size: 1.8em;}
+
+.headline-one {
+    color: black;
+    margin-top: 80px;
+}
+
+.headline-two {
+    color:black;
+    margin-top: 0px;
+    line-height: 0%;
 }
 
 .sub-headline {
-    background-color: rgb(180, 255, 157);
+    margin-top: 30px;
+    font-weight: bold;
+    color: rgb(100, 100, 100);
 }
 
 .right-col {
