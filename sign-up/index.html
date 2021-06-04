@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>front-end-testas</title>
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/form.css">
-    <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="../css/button.css">
 </head>
 <body>
     <div class="bg-color"></div>
@@ -17,8 +17,12 @@
                 <div class="logo">Fcuksense</div>
                 <h3 class="headline-one">artificial intelligence driving</h3><br>
                 <h3 class="headline-two">results for the travel industry</h3>
-                <p class="sub-headline">Welcome Back, Please login to your account</p>
+                <p class="sub-headline">Welcome, if you want join us, please sign up</p>
                 <form id="link-btn" class="form">
+                    <div class="form-row form-input">
+                        <label for="username">username</label>
+                        <input id="username" type="text" required>
+                    </div>
                     <div class="form-row form-input">
                         <label for="email address">email address</label>
                         <input id="email address" type="text" required>
@@ -27,15 +31,15 @@
                         <label for="password">password</label>
                         <input id="password" type="password" required>
                     </div>
-                    <div class="form-row flex-row-password">
-                    <span><a href="#">forgot password?</a></span>
+                    <div class="form-row form-input">
+                        <label for="repeat password">repeat password</label>
+                        <input id="repeat password" type="password" required>
                     </div>
                     <div class="form-row flex-row-buttons">
-                        <button type="submit" form="link-btn">login</button>
-                        <button><a href="./sign-up/" target="_blank" style="text-decoration: none;">Sign up</a></button>
+                        <button type="submit" form="link-btn" style="background-color: blueviolet; color: white"><a>sign up</a></button>
                     </div>
                     <div class="form-row flex-row-socials">
-                        <span>Or login with</span>
+                        <span>Or register with</span>
                         <a href="#" target="_blank">facebook</a>
                         <a href="#" target="_blank">linkedin</a>
                         <a href="#" target="_blank">google</a>
