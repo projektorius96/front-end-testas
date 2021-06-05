@@ -27,7 +27,6 @@ main {
     display: inline-block;
     width: var(--full-main);
     margin-left: calc((100% - var(--full-main)) / 2);
-    background-color: rgb(177, 255, 255); 
 }
 
 main > div {
@@ -38,6 +37,7 @@ main > div {
     width: 40%;
     float: left;
     padding: 20px;
+    position: relative;
     margin-left: calc((40% - var(--leftcol-width)) / 2);
     background-color: white; 
     background-repeat: no-repeat;
@@ -70,7 +70,6 @@ h3 {font-size: 1.8em;}
 .headline-two {
     color:black;
     margin-top: 0px;
-    line-height: 0%;
 }
 
 .sub-headline {
